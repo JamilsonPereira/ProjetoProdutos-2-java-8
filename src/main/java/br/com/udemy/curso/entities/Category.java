@@ -28,11 +28,11 @@ public class Category implements Serializable {
 	@ManyToMany(mappedBy = "categories")
 	private Set<Product> products = new HashSet<>();
 	
+	
 	public Category() {
 		
 	}
-	
-	
+
 	public Category(Long id, String name) {
 		super();
 		this.id = id;
