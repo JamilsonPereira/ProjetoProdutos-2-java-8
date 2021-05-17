@@ -9,5 +9,4 @@ class CursoUdemyApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
